@@ -1,0 +1,109 @@
+body
+{
+    background-color: #CCC;
+}
+
+#Header a:hover
+{
+    color:#FFF;
+}
+
+/* backgroung image*/
+
+
+#About
+{
+    margin-top: 5px;
+}
+
+#About .fa
+{
+    color:#fff;
+}
+
+#About span
+{
+    padding-top: 10px 20px 10px 20px;
+   
+}
+#About hr
+{
+    border-width: 3px;
+    margin-top: 02px;
+}
+#Skills span
+{
+    padding-top: 10px 20px 10px 10px;
+   
+}
+
+#Skills hr
+{
+    border-width: 3px;
+    margin-top: 02px;
+}
+#Experience span
+{
+    padding-top: 10px 20px 10px 10px;
+   
+}
+
+#Experience  hr
+{
+    border-width: 3px;
+    margin-top: 02px;
+}
+#Experience .card
+{
+    border-top: 03px solid border-danger;
+}
+
+#Contact span
+{
+    padding-top: 10px 20px 10px 10px;
+   
+}
+
+#contact hr
+{
+    border-width: 3px;
+    margin-top: 02px;
+}
+
+#map
+{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 30px;
+  }
+  
+ 
+ 
+  .bg {
+    /* The image used */
+    background-image: url("../img/laptop2.jpg");
+  
+    /* Full height */
+    height: 100px; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+
