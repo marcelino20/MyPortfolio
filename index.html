@@ -597,6 +597,24 @@
   color="blue"
   size="xlarge">
 </div>
+  <script>
+                window.fbAsyncInit = function() {
+                  FB.init({
+                    appId            : '133598157565444',
+                    autoLogAppEvents : true,
+                    xfbml            : true,
+                    version          : 'v3.2'
+                  });
+                };
+              
+                (function(d, s, id){
+                   var js, fjs = d.getElementsByTagName(s)[0];
+                   if (d.getElementById(id)) {return;}
+                   js = d.createElement(s); js.id = id;
+                   js.src = "https://connect.facebook.net/en_US/sdk.js";
+                   fjs.parentNode.insertBefore(js, fjs);
+                 }(document, 'script', 'facebook-jssdk'));
+              </script>
    
         <!--Footer-->
         <div class="card-footer bg-dark mt-5 border border-danger text-center">
@@ -616,25 +634,8 @@
 
 
  <!---Facebook chat -->
-<div class="fb-customerchat" page_id="590797144676082"></div>
-        <script>
-                window.fbAsyncInit = function() {
-                  FB.init({
-                    appId            : '133598157565444',
-                    autoLogAppEvents : true,
-                    xfbml            : true,
-                    version          : 'v3.2'
-                  });
-                };
-              
-                (function(d, s, id){
-                   var js, fjs = d.getElementsByTagName(s)[0];
-                   if (d.getElementById(id)) {return;}
-                   js = d.createElement(s); js.id = id;
-                   js.src = "https://connect.facebook.net/en_US/sdk.js";
-                   fjs.parentNode.insertBefore(js, fjs);
-                 }(document, 'script', 'facebook-jssdk'));
-              </script>
+
+      
                <!---Facebook chat <div class="fb-customerchat" page_id="590797144676082"></div> --->           
 </body>
 </html>
